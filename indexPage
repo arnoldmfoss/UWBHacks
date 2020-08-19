@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <style>
+                * {
+                        background-color: LightGray;
+                        color: DodgerBlue;
+                        text-align: center;
+                }
+                .bottom {
+                        border-style: solid;
+                        border-width: medium;
+                        border-color: DodgerBlue;
+                        border-radius: 5px;
+                }
+        </style>
+</head>
+<body>
+<h1 style="text-align: left;" style="margin-left: 20px;" style="margin-left: 20px;">
+    Search for a word in youtube videos
+</h1>
+<form action="/thank" method="post" name="form1">
+    <p>
+        URL: <input type="text" name="cu">
+    </p>
+    <p>
+        Word: <input type="text" name="word">
+    </p>
+    <p>
+        <input type="submit" value="submit" class="button">
+        <input type="reset" value="reset" class="button">
+    </p>
+</form>
+</body>
+</html>
